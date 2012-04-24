@@ -154,10 +154,11 @@ public class Game {
 	
 	/**
 	 * Clicks the game compass.
+	 * Edited to remove misclicks
 	 */
 	public static void clickCompass() {
 		final Point center = new Point((int) (COMPASS.x + (COMPASS.width / 2)), (int) (COMPASS.y + (COMPASS.height / 2)));
-		Mouse.click(center, 6, 6);
+		Mouse.click(center, 5, 5);
 	}
 	
 	/**
