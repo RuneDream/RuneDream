@@ -616,7 +616,7 @@ public final class OCR {
 			final StringBuilder builder = new StringBuilder();
 			final BufferedImage gameImage = Game.getImage();
 			final int leftUpperX = 5;
-			final int leftUpperY = 5;
+			final int leftUpperY = 55;
 			final int width = Game.VIEWPORT.width - 10;
 			final int height = 20;
 			final boolean[][] ocrImage = new boolean[width][height];
